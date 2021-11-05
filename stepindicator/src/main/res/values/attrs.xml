@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepIndicator">
+        <attr name="stepRadius" format="float" />
+        <attr name="activeStepRadius" format="float" />
+        <attr name="stepWidth" format="float" />
+        <attr name="stepDistance" format="float" />
+        <attr name="numberOfSteps" format="integer" />
+        <attr name="activeStepPosition" format="integer" />
+        <attr name="activeStepColor" format="color" />
+        <attr name="previousStepColor" format="color" />
+        <attr name="nextStepColor" format="color" />
+        <attr name="activeStepIndicatorTypeColor" format="color" />
+        <attr name="previousStepIndicatorTypeColor" format="color" />
+        <attr name="nextStepIndicatorTypeColor" format="color" />
+        <attr name="activeStepLabelColor" format="color" />
+        <attr name="previousStepLabelColor" format="color" />
+        <attr name="nextStepLabelColor" format="color" />
+        <attr name="fillActiveStep" format="boolean" />
+        <attr name="fillPreviousStep" format="boolean" />
+        <attr name="fillNextStep" format="boolean" />
+        <attr name="showLabels" format="boolean" />
+        <attr name="showLinesBetweenSteps" format="boolean" />
+    </declare-styleable>
+</resources>

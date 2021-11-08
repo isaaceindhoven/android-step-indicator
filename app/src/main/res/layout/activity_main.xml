@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <nl.isaac.android.stepindicator.StepIndicator
+    <nl.isaac.android.StepIndicator
         android:id="@+id/stepIndicatorNumbers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <nl.isaac.android.stepindicator.StepIndicator
+    <nl.isaac.android.StepIndicator
         android:id="@+id/stepIndicatorIcons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/stepIndicatorNumbers" />
 
-    <nl.isaac.android.stepindicator.StepIndicator
+    <nl.isaac.android.StepIndicator
         android:id="@+id/stepIndicatorMixed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

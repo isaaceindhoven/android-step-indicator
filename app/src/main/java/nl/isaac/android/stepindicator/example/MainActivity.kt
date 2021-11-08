@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
-import nl.isaac.android.stepindicator.StepIndicator
+import nl.isaac.android.StepIndicator
 
 class MainActivity : AppCompatActivity() {
 

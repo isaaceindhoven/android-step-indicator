@@ -11,7 +11,7 @@ project `build.gradle` file:
 
 ```groovy
 dependencies {
-    implementation 'path.....'
+    implementation 'nl.isaac:android-step-indicator:1.0.0'
 }
 ```
 
@@ -25,8 +25,10 @@ Place the step indicator in your XML view.
 
 ```xml
 
-<nl.isaac.android.stepindicator.StepIndicator android:id="@+id/stepIndicator"
-    android:layout_width="wrap_content" android:layout_height="wrap_content"
+<nl.isaac.android.StepIndicator 
+    android:id="@+id/stepIndicator"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
     app:numberOfSteps="4" />
 ```
 

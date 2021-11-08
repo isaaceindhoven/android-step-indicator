@@ -1,4 +1,4 @@
-package nl.isaac.android.stepindicator
+package nl.isaac.android
 
 import android.content.Context
 import android.graphics.*
@@ -12,7 +12,7 @@ import android.view.View
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.graphics.drawable.toBitmap
 import androidx.viewpager2.widget.ViewPager2
-import nl.isaac.android.stepindicator.extentions.drawMultilineText
+import nl.isaac.android.stepindicator.R
 import kotlin.math.abs
 
 class StepIndicator(context: Context, attributeSet: AttributeSet) : View(context, attributeSet) {

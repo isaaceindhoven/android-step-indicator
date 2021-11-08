@@ -1,4 +1,4 @@
-package nl.isaac.android.stepindicator.extentions
+package nl.isaac.android
 
 import android.graphics.Canvas
 import android.os.Build

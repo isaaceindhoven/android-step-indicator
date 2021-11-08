@@ -80,5 +80,11 @@ private fun setupStepIndicator() {
 | `fillPreviousStep` | boolean | false
 | `fillNextStep` | boolean | true
 
+## Contributing
+
+There are multiple ways you can help improve this package: Reporting bug, suggesting features, and contributing code implementing said features and bug requests.
+
+More information can be found in [CONTRIBUTING](https://github.com/isaaceindhoven/android-step-indicator/blob/main/CONTRIBUTING.md).
+
 ## License
 [MIT](LICENSE) © ISAAC Software Solutions BV

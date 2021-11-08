@@ -1,0 +1,3 @@
+- add first version of stepIndicator
+- add Readme
+- add Github action for release library

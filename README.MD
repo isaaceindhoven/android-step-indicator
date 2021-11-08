@@ -1,5 +1,8 @@
 # Android step indicator
 
+![Library Version](https://img.shields.io/badge/LibraryVersion-v1.0.0-brightgreen)
+[![License](https://img.shields.io/github/license/isaaceindhoven/android-step-indicator)](https://github.com/isaaceindhoven/android-step-indicator/blob/main/LICENSE)
+
 Dynamic step indicator library for Android. Fully customisable and compatible with ViewPager2.
 
 ![](gifs/stepIndicatorExample.gif)
@@ -11,7 +14,7 @@ project `build.gradle` file:
 
 ```groovy
 dependencies {
-    implementation 'nl.isaac:android-step-indicator:1.0.0'
+    implementation 'nl.isaac:android-step-indicator:$version'
 }
 ```
 
@@ -32,7 +35,7 @@ Place the step indicator in your XML view.
     app:numberOfSteps="4" />
 ```
 
-Add or change properties in your Activity of Fragment
+Add or change properties and styling in your Activity or Fragment
 
 ```kotlin
 private fun setupStepIndicator() {
@@ -58,7 +61,7 @@ private fun setupStepIndicator() {
 | `activeStepPosition` | int | current active step | 0
 | `showLabels` | boolean | show labels below step | false
 | `labels` | list<string> | Label for each step | {}
-| `stepType` | StepType.Numbers, StepType.None, StepType.text<list<string>>, StepType.Icon<List<Int>>, stepType.MixedList<Pair<StepIndicatorTypeMixedOption, Any>> | Label for each step | StepType.Numbers
+| `stepType` | StepType.Numbers, StepType.None, StepType.text<list<string>>, StepType.Icon<List<Int>>, stepType.MixedList<Pair<StepIndicatorTypeMixedOption, Any>> | Type of step | StepType.Numbers
 
 ## Styling
 

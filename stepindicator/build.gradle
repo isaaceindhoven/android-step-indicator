@@ -7,8 +7,8 @@ plugins {
 ext {
     mGroupId = "nl.isaac"
     mArtifactId = "android-step-indicator"
-    mVersionCode = 1
-    mVersionName = "1.0.0"
+    mVersionCode = 2
+    mVersionName = "1.0.1"
 
     mLibraryName = "android-step-indicator"
     mLibraryDescription = "Dynamic step indicator library for Android. Fully customisable and compatible with ViewPager2."

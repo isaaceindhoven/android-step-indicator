@@ -1,6 +1,6 @@
 # Android step indicator
 
-![Library Version](https://img.shields.io/badge/LibraryVersion-v1.0.0-brightgreen)
+![Library Version](https://img.shields.io/badge/LibraryVersion-v1.0.1-brightgreen)
 [![License](https://img.shields.io/github/license/isaaceindhoven/android-step-indicator)](https://github.com/isaaceindhoven/android-step-indicator/blob/main/LICENSE)
 
 Dynamic step indicator library for Android. Fully customisable and compatible with ViewPager2.

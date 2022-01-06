@@ -6,5 +6,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Step Indicator"
-include ':app'
-include ':stepindicator'
+include ':sample-xml'
+include ':sample-compose'
+include ':stepindicator-xml'
+include ':stepindicator-compose'
